@@ -1,5 +1,5 @@
 <link rel="stylesheet" media="all" href="{{.AuthURL "/assets/qor_auth.css"}}">
-
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
 <div class="container qor-auth">
   <div class="qor-auth-box">
     {{$flashes := .Flashes}}
@@ -26,7 +26,7 @@
 
           <li>
             <label for="password">{{t "auth.form.password"}}</label>
-            <a class="forgot-password" href="{{.AuthURL "password/new"}}">{{ t "auth.links.forgot_password" }}</a>
+            <!-- <a class="forgot-password" href="{{.AuthURL "password/new"}}">{{ t "auth.links.forgot_password" }}</a> -->
             <input type="password" class="form-control" id="password" name="password" placeholder="{{t "auth.form.password_placeholder"}}">
           </li>
 
