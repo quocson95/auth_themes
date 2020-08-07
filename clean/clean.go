@@ -9,8 +9,6 @@ import (
 	"path/filepath"
 
 	"github.com/qor/auth"
-	"github.com/qor/auth/claims"
-	"github.com/qor/auth/providers/password"
 	"github.com/qor/i18n"
 	"github.com/qor/i18n/backends/yaml"
 	"github.com/qor/qor"
